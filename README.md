@@ -1,7 +1,7 @@
 jQuery Plugin - Thumbnail Fit Plugin
 ======================
 
-![](https://dl.dropboxusercontent.com/u/3924504/server/github.com/is8r/jquery-thumbfit/0.png)
+![](https://dl.dropboxusercontent.com/u/3924504/server/12px.com/blog/140311/0.png)
 
 Thumbnail Fit Plugin.
 
@@ -10,8 +10,5 @@ Thumbnail Fit Plugin.
 [jquery.thumbfit.min.js](https://raw.github.com/is8r/jquery-thumbfit/master/jquery.thumbfit.min.js)
 
 ```
- $('li', '.js-thumbs').thumbfit({
-   width: 100,
-   height: 100
- });
+ $('li', '.js-thumbs').thumbfit();
 ```
