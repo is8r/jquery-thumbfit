@@ -1,0 +1,56 @@
+@import compass
+@import compass/reset
+
+body
+  padding: 100px 0 0 0
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans')
+h1
+  color: #222
+  font-family: 'Open Sans', sans-serif
+  font-size: 16px
+  width: 500px
+  margin: 0 auto 10px
+
+hr
+  border: none
+  border-top: 1px solid #ddd
+  width: 500px
+  margin: 0 auto 30px
+
+ul
+  $w: 100px
+  $h: 100px
+  +clearfix
+  width: 500px
+  margin: 0 auto 40px
+  li
+    float: left
+    list-style: none
+    width: $w
+    height: $h
+  
+  &.thumbs-original
+    li
+      display: inline-block
+      height: auto
+      img
+        max-width: $w
+        height: auto
+
+  &.thumbs-auto
+    li
+      display: inline-block
+      img
+        max-width: $w
+        height: auto
+
+  &.thumbs-fit
+    li
+      display: inline-block
+      img
+        width: $w
+        height: $h
+        object-fit: cover
+
+
